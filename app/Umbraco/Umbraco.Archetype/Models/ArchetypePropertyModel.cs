@@ -17,6 +17,9 @@ namespace Archetype.Models
         [JsonProperty("alias")]
         public string Alias { get; set; }
 
+        [JsonProperty("label")]
+        public string Label { get; set; }
+
         [JsonProperty("value")]
         public object Value { get; set; }
 
